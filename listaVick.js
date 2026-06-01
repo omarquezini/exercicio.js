@@ -1,6 +1,6 @@
 let convidados = ["julho","julia","julinho","wellberson"];
 
-let Nconvidado = "julho";
+let Nconvidado = "julio";
 
 if (convidados.includes(Nconvidado)) {
     console.log("bem vindo... passa logo!");
