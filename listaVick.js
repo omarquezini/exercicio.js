@@ -1,7 +1,10 @@
-let convidados = [julho, julia, julinho, wellberson];
+let convidados = ["julho","julia","julinho","wellberson"];
 
-let Nconvidados = [julio];
+let Nconvidado = "julho";
 
-if (Nconvidados === convidados){
-    console.log("")
+if (convidados.includes(Nconvidado)) {
+    console.log("bem vindo... passa logo!");
+} 
+else {
+    console.log("CAI FORA!!! *chamando a policia*, corra agora seu miseravel.");
 }
